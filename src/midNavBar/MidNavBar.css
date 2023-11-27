@@ -1,0 +1,134 @@
+.midNavBar{
+    margin: 0% 15% 0% 5%;
+    display: flex;
+    direction: rtl;
+}
+.ReserveDiv{
+    width: fit-content;
+    background-color: #8a74f9;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    margin: 0% 1% 0% 0%;
+}
+.ReserveP{
+    font-weight: bold;
+    font-size: small;
+    color: #fff;
+    direction: rtl;
+    margin: 0px;
+    padding: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.switchDiv{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 18px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8a74f9;
+    transition: 0.4s;
+    border-radius: 9px;
+}
+.switch input {
+    display: none;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 9px;
+}
+input:checked + .slider {
+    background-color: #f3f5f7;
+}
+input:checked + .slider:before {
+    transform: translateX(16px);
+}
+.switchP{
+    color: #9c9d9f;
+    font-size: 14px;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.upDown{
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #8b8b8b;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.adjust{
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #8b8b8b;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.searchBar{
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 8px;
+    border: 1px solid #8b8b8b;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-left: 0.5%;
+}
+.searchP{
+    color: #8b8b8b;
+    margin: 0% 1%;
+    direction: rtl;
+    white-space: nowrap;
+    border: none;
+}
+.searchIcon{
+    margin: 0% 5%;
+    cursor: pointer;
+}
+.textDiv{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+.textP{
+    font-weight: bold;
+    font-size: 100%;
+    text-align: right;
+    direction: rtl;
+    margin: 0%;
+    padding: 0%;
+    white-space: nowrap;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    .midNavBar{
+        margin: 0%;
+    }
+    .searchBar{
+        width: 15%;
+    }
+}

@@ -1,0 +1,30 @@
+.navBar{
+    margin: 0% 15% 0% 5%;
+    display: flex;
+    direction: rtl;
+}
+.rightSide{
+    display: flex;
+    text-align: right;
+    direction: rtl;
+}
+.rightSideP{
+    margin: 0%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: fit-content;
+    white-space: nowrap;
+}
+.leftSide{
+    margin-right: auto;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e9eaea;
+    border-radius: 8px;
+}
+.leftSide P{
+    margin: 0% 5px 0% 0%;
+}

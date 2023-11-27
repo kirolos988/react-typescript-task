@@ -1,0 +1,45 @@
+.ticketBox{
+    background-image: url(./bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 408px;
+    height: 264px;
+    margin: 30px;
+    margin-top: 70px;
+}
+.header{
+    display:'flex';
+}
+.delIcon{
+    display:'flex';
+    margin:30;
+}
+.title{
+    width: 65%;
+    align-self: center;
+}
+.titleText{
+    color: white;
+    text-align: center;
+    font-size:smaller;
+    font-weight: bolder;
+}
+.endHeader{
+    color: white;
+    text-align: center;
+    font-size:smaller;
+}
+.ticketFooter {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.ticketFooter p {
+    /* margin-left: auto; */
+    padding-right: 30px;
+    width: 40px;
+    direction: rtl;
+    line-height: 2;
+  }

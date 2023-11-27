@@ -1,0 +1,93 @@
+ .tableDiv{
+    background-color: #ffffff;
+    margin: 2% 15% 0% 5%;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    direction: rtl;
+}
+table{
+    width: 99%;
+    margin: 0.25% auto;
+}
+th{
+    background-color: #f8f8f9;
+    color: #abaab1;
+    font-size: small;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    direction: rtl;
+    white-space: nowrap;
+    height: 50px;
+}
+.large{
+    width: 18%;
+    white-space: nowrap;
+}
+.medium{
+    width: 14%;
+    white-space: nowrap;
+
+}
+.small{
+    width: 10%;
+    white-space: nowrap;
+}
+td{
+    text-align: center;
+    direction: rtl;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0;
+    height: 50px;
+    border-top: 1px solid #f3f3f5;
+}
+.dataBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    text-align: start;
+}
+.dataBox svg, img{
+    cursor: pointer;
+}
+.dataBox p{
+    margin: 0%;
+    font-size: small;
+    margin-inline: 10px;
+}
+.dataDown{
+    color: #999999;
+}
+.pagination{
+    display: flex;
+    background-color: #ffffff;
+    align-items:baseline;
+    margin-right: auto;
+    float: left;
+    margin: 0% 0% 0% 5%;
+    padding: 1% 0%;
+    max-width: 80%;
+    border-top: 1px solid #f3f3f5;
+    border-radius: 0px 0px 8px 8px;
+    justify-content: space-between;
+}
+.pagDropdown{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    align-items:baseline;
+    direction: rtl;
+}
+.selectPages{
+    border-radius: 7px;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    padding-left: 10px;
+    margin-inline: 8px;
+    font-size: 14px;
+    direction: ltr;
+}
