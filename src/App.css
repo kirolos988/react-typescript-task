@@ -5,3 +5,36 @@
   width: 98vw;
   padding-top: 5%;
 }
+.statHeader{
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  padding: 0%;
+  direction: rtl;
+}
+.stat{
+  /* background-color: green; */
+  margin-right: 2%;
+}
+.blackText{
+  margin: 0%;
+}
+.greyText{
+  margin: 0%;
+  color: #bfc4d2;
+}
+.dropDown{
+  padding: 0px;
+  margin-left: 0%;
+  margin-right: auto;
+}
+.selectPageschart{
+  border-radius: 7px;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  padding-left: 10px;
+  margin-inline: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  direction: rtl;
+}

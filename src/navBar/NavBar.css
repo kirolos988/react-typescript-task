@@ -24,6 +24,7 @@
     align-items: center;
     border: 1px solid #e9eaea;
     border-radius: 8px;
+    padding: 4px;
 }
 .leftSide P{
     margin: 0% 5px 0% 0%;

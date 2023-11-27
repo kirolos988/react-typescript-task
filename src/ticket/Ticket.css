@@ -1,45 +1,62 @@
 .ticketBox{
     background-image: url(./bg.png);
-    background-size: auto;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 408px;
-    height: 264px;
-    margin: 30px;
-    margin-top: 70px;
+    border-radius: 15px;
 }
-.header{
-    display:'flex';
+.ticket{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    margin: 2%; 
+    margin-right: 10%;
 }
-.delIcon{
-    display:'flex';
-    margin:30;
-}
-.title{
-    width: 65%;
-    align-self: center;
+
+.content{
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .titleText{
     color: white;
-    text-align: center;
+    text-align: end;
     font-size:smaller;
     font-weight: bolder;
 }
+.whiteBox{
+    background-color: #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+    align-items: center;
+padding: 4% 60% ;
+}
+.svgDiv{
+    margin: 0 10px 0 0;
+
+}
+.whiteBox p{
+    margin: 3% 5%;
+}
 .endHeader{
-    color: white;
-    text-align: center;
+    color: #ffffff;
+    text-align: end;
+    padding: 0%;
+    margin: 0%;
     font-size:smaller;
 }
-.ticketFooter {
+.ticketFooterDiv {
     color: white;
-    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
+    
 }
   
-.ticketFooter p {
-    /* margin-left: auto; */
-    padding-right: 30px;
+.ticketFooterP {
+    text-align: start;
     width: 40px;
-    direction: rtl;
+    padding-right: 20%;
+    direction: ltr;
     line-height: 2;
   }

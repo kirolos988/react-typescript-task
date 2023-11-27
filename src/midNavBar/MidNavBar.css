@@ -71,10 +71,11 @@ input:checked + .slider:before {
     align-items: center;
     white-space: nowrap;
 }
+
 .upDown{
     background-color: #ffffff;
     border-radius: 8px;
-    border: 1px solid #8b8b8b;
+    border: 1px solid #cfd6db;
     display: flex;
     align-items: center;
     margin-left: 1%;
@@ -83,7 +84,7 @@ input:checked + .slider:before {
 .adjust{
     background-color: #ffffff;
     border-radius: 8px;
-    border: 1px solid #8b8b8b;
+    border: 1px solid #cfd6db;
     display: flex;
     align-items: center;
     margin-left: 1%;
@@ -93,14 +94,14 @@ input:checked + .slider:before {
     background-color: #ffffff;
     width: 30%;
     border-radius: 8px;
-    border: 1px solid #8b8b8b;
+    border: 1px solid #cfd6db;
     display: flex;
     align-items: center;
     justify-content:start;
     margin-left: 0.5%;
 }
 .searchP{
-    color: #8b8b8b;
+    color: #cfd6db;
     margin: 0% 1%;
     direction: rtl;
     white-space: nowrap;
