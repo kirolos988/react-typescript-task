@@ -44,7 +44,7 @@ const   Graph =()=> {
                 area:true
               },
             ]}
-            width={700}
+            width={640}
             height={270}
             disableAxisListener
             sx={{
